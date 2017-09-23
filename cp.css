@@ -78,8 +78,7 @@ h6 {
 
 .subtitle {
   font-size: 2.0rem;
-  font-weight: 300;
-  color: #4a4a4a; }
+  font-weight: 300; }
 
 @media only screen and (min-width: 700px) {
   h2,
@@ -95,9 +94,11 @@ h6 {
       margin-right: 0.3em; } }
 nav {
   display: flex;
+  position: relative;
   justify-content: space-between;
   padding: 22px 36px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4); }
 
 .home {
   flex: 0 0 auto;
