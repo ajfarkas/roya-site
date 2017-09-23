@@ -9,9 +9,10 @@ a {
 }
 
 h1 {
+	font-family: $font2;
 	font: {
 		size: 4.4rem;
-		weight: 300;
+		weight: 700;
 	}
 	text-transform: uppercase;
 }
@@ -20,15 +21,17 @@ h2 {
 	display: inline-block;
 	font: {
 		size: 1.9rem;
-		weight: 500;
+		weight: 400;
 	}
+	color: $yellowgray;
 }
 
 h3 {
 	font: {
 		size: 1.9rem;
-		weight: 400;
+		weight: 300;
 	}
+	color: $yellowgray;
 }
 
 h4 {
@@ -39,6 +42,7 @@ h4 {
 		size: 2.4rem;
 		weight: 500;
 	}
+	font-family: $font2;
 
 	&:after {
 		content: '';

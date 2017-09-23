@@ -9,15 +9,15 @@
 
 .title-wrap {
 	background-color: $bg-invert;
+	border-bottom: 1px solid $dark-grey;
 }
 
 .title {
 	padding: {
-		top: 1.8em;
-		bottom: 2em;
+		top: 2.6em;
+		bottom: 2.6em;
 	}
 	background-color: $bg-invert;
-	border-bottom: 1px solid $dark-grey;
 	color: $text-color-invert;
 }
 

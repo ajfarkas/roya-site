@@ -10,20 +10,21 @@
 
 .overview-wrap {
 	background-color: $bg-invert;
+	border-bottom: 1px solid $dark-grey;
 }
 
 .overview {
 	display: flex;
 	flex-direction: column;
 	background-color: $bg-invert;
-	color: $text-color-invert;
+	color: $text-color-offwhite;
 }
 
 .overview p { margin-bottom: 1em; }
 
 .info-box {
 	padding: {
-		top: 1.5em;
+		top: 2.5em;
 		bottom: 20px;
 	}
 
@@ -43,13 +44,15 @@
 .info-texts {
 	padding: {
 		left: 2.5vw;
-		right: 2.5vw;
+		right: 4.5vw;
 	}
 	font-size: 1.8rem;
 }
 
 .text-emphasis {
-	font-weight: 500;
+	font-weight: 300;
+	color: $accent;
+	background-color: $shading;
 }
 
 .link-box {
@@ -68,10 +71,19 @@
 		display: inline-block;
 		@include underline($green);
 	}
+	letter-spacing: 0.5px;
 }
 .link-news h5 {
 	display: inline-block;
 	@include underline($yellow);
+	letter-spacing: 0.5px;
+}
+p.news-date {
+	font-weight: 400;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: $yellowgray;
+    margin-bottom: .6rem;
 }
 
 .overview-info {
@@ -97,7 +109,10 @@
 		} 
 	}
 
-	.info-texts { font-size: 2.4rem; }
+	.info-texts { 
+		font-size: 2.2rem;
+		line-height: 3rem;
+	}
 
 	.link-box { flex-basis: 500px; }
 }
