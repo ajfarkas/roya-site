@@ -1,0 +1,82 @@
+// main index
+.title {
+	max-width: $page-max;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+.title-wrap {
+	background-color: $bg-invert;
+}
+
+.title {
+	padding: {
+		top: 1.8em;
+		bottom: 2em;
+	}
+	background-color: $bg-invert;
+	border-bottom: 1px solid $dark-grey;
+	color: $text-color-invert;
+}
+
+@import "overview";
+
+.recent-videos {
+	list-style: none;
+}
+
+.recent-video {
+	position: relative;
+}
+
+label {
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+.video {
+	display: block;
+	width: 360px;
+	// calculated aspect ratio for tallest video
+	height: 202px;
+	margin-top: 12px;
+}
+
+.researchers {}
+
+.researcher {
+	margin: {
+		left: 1.1em;
+		bottom: 0.8em;
+	}
+
+
+	&:first-of-type {
+		margin-left: 0;
+		list-style: none;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}
+
+@include breakpoint(700) {
+	.researchers {
+		display: inline-block;
+		width: calc(33% - 0.3em);
+	}
+
+	.recent-videos {
+		display: flex;
+		justify-content: space-between;
+	}
+	.recent-video { flex: 0 0 33%; }
+
+	.video {
+			display: inline-block;
+			width: 100%;
+			// calculated aspect ratio for tallest video
+			height: 16.7vw;
+	}
+}

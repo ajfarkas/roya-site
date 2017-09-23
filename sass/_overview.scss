@@ -1,0 +1,103 @@
+// overview section
+.overview,
+.overview-info {
+	max-width: $page-max;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+.overview-wrap {
+	background-color: $bg-invert;
+}
+
+.overview {
+	display: flex;
+	flex-direction: column;
+	background-color: $bg-invert;
+	color: $text-color-invert;
+}
+
+.overview p { margin-bottom: 1em; }
+
+.info-box {
+	padding: {
+		top: 1.5em;
+		bottom: 20px;
+	}
+
+	& > a {
+		float: left;
+		padding-right: 10px;
+	}
+}
+
+.info-portrait {
+	width: auto;
+	height: 35vw;
+	max-height: 458px;
+	min-height: 200px;
+}
+
+.info-texts {
+	padding: {
+		left: 2.5vw;
+		right: 2.5vw;
+	}
+	font-size: 1.8rem;
+}
+
+.text-emphasis {
+	font-weight: 500;
+}
+
+.link-box {
+	flex: 1 1 auto;
+	padding: {
+		top: 1.5em;
+		left: 2.5vw;
+		bottom: 2em;
+	}
+	border-left: 1px solid $dark-grey;
+}
+
+.link-contact {
+	margin-bottom: 2em;
+	& h5 {
+		display: inline-block;
+		@include underline($green);
+	}
+}
+.link-news h5 {
+	display: inline-block;
+	@include underline($yellow);
+}
+
+.overview-info {
+	padding-top: 24px;
+	padding-bottom: 20px;
+
+	&:last-of-type {
+		padding-bottom: 80px;
+	}
+}
+
+@include breakpoint(700) {
+	.overview { flex-direction: row; }
+
+	.info-box {
+		display: flex;
+		flex: 1 1 auto;
+		padding-bottom: 80px;
+
+		& > a {
+			padding-right: 0;
+			float: none;
+		} 
+	}
+
+	.info-texts { font-size: 2.4rem; }
+
+	.link-box { flex-basis: 500px; }
+}

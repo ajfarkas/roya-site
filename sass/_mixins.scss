@@ -1,0 +1,35 @@
+@mixin underline($color) {
+	box-shadow: 0 1px 0 0 $color, inset 0 -2px $color;
+}
+
+//breakpoint mixin
+$media-direction: min;
+@mixin breakpoint($values, $direction: $media-direction) {
+ 
+  @if length($values) > 1 {
+    $min: nth($values, 1);
+    $max: nth($values, 2);
+ 
+    @if unitless($max) {
+      $max: $max + 0px;
+    }
+ 
+    @if unitless($min) {
+      $min: $min + 0px;
+    }
+ 
+    @media screen and (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+ 
+  } @else {
+ 
+    @if unitless($values) {
+      $values: $values + 0px;
+    }
+ 
+    @media only screen and (#{$direction}-width: $values) {
+      @content;
+    }
+  }
+}

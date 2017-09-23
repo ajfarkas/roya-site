@@ -1,0 +1,49 @@
+// navigation
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 22px 36px;
+	background-color: $bg;
+}
+
+.home {
+	flex: 0 0 auto;
+	font: {
+		size: 2.4rem;
+		weight: 500;
+	}
+}
+
+.nav-links {
+	flex: 0 0 auto;
+// vertical align contents
+	&:after {
+		content: '';
+		display: inline-block;
+		width: 0;
+		height: 100%;
+		vertical-align: middle;
+	}
+}
+
+.pages {
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 1.6rem;
+	vertical-align: middle;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 63px;
+	background-color: $bg-invert;
+	color: $text-color-invert;
+}
+
+@include breakpoint(700) {
+	.pages {
+		margin-right: 30px;
+		font-size: 2.0rem;
+	}
+}

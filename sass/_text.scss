@@ -1,0 +1,97 @@
+// text
+a {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		box-shadow: inset 0 -1px 0 0;
+	}
+}
+
+h1 {
+	font: {
+		size: 4.4rem;
+		weight: 300;
+	}
+	text-transform: uppercase;
+}
+
+h2 {
+	display: inline-block;
+	font: {
+		size: 1.9rem;
+		weight: 500;
+	}
+}
+
+h3 {
+	font: {
+		size: 1.9rem;
+		weight: 400;
+	}
+}
+
+h4 {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 18px;
+	font: {
+		size: 2.4rem;
+		weight: 500;
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		width: calc(100% + 50px);
+		height: 6px;
+		background-color: $black;
+	}
+}
+
+h5 {
+	margin-bottom: 1em;
+	font: {
+		family: $font2;
+		size: 1.5rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+}
+
+h6 {
+	margin-right: 15px;
+	font: {
+		size: 1.5rem;
+		weight: 300;
+	}
+	color: $grey;
+}
+
+.subtitle {
+	font: {
+		size: 2.0rem;
+		weight: 300;
+	}
+	color: $dark-grey;
+}
+
+@include breakpoint(700) {
+	h2,
+	h3 { font-size: 2.2rem; }
+}
+
+@include breakpoint(1100) {
+	h3 {
+		display: inline-block;
+
+		&:before {
+			content: '| ';
+			display: inline-block;
+			margin: {
+				left: 0.2em;
+				right: 0.3em;
+			}
+		}
+	}
+}
