@@ -26,11 +26,33 @@ section {
   padding-left: 9vw;
   padding-right: 9vw; }
 
+.svg-icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle; }
+
+.svg-text {
+  display: inline-block;
+  vertical-align: middle; }
+
+.svg-rarr {
+  fill: #4a4a4a; }
+
+.svg-download {
+  fill: #4a4a4a; }
+
+.svg-email {
+  fill: #ffffff; }
+
+.svg-star {
+  fill: #4a4a4a; }
+
 nav {
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding: 22px 36px;
+  padding: 19px 36px;
   background-color: #ffffff;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4); }
 
@@ -50,9 +72,18 @@ nav {
 
 .pages {
   display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
   margin-right: 30px;
   font-size: 1.5rem;
   vertical-align: middle; }
+  .pages:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  .pages.is-selected {
+    box-shadow: 0 14px 0 0 #ffffff, 0 19px 0 0; }
 
 footer {
   display: flex;
@@ -82,6 +113,7 @@ h2 {
   text-transform: uppercase; }
 
 h3 {
+  margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: 500;
   color: #232323; }
@@ -95,6 +127,7 @@ h3 {
 
 h4 {
   display: inline-block;
+  margin-bottom: 10px;
   font-size: 1.8rem;
   font-weight: 500; }
 
@@ -123,17 +156,39 @@ section {
   padding-right: 0; }
 
 .publication {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-top: 1px solid #bababa; }
 
 .award {
   display: inline-block;
+  margin-top: 15px;
   margin-right: auto;
-  padding: 0.2em 2em;
+  padding: 0.2em 2em 0.2em 0;
   background-color: white; }
+  .award .svg-star {
+    margin-left: 0.3em;
+    margin-right: 0.5em; }
 
 .ref-links {
   float: right; }
+
+.pub-bibtex {
+  margin-left: 10px; }
+
+.abstract {
+  margin-top: 15px; }
+
+[name="show-abstract"] {
+  position: fixed;
+  left: -3000px; }
+  [name="show-abstract"]:not(:checked) + .abstract {
+    max-width: 75%;
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    [name="show-abstract"]:not(:checked) + .abstract:hover {
+      box-shadow: inset 0 -1px 0 0;
+      cursor: s-resize; }
 
 /*# sourceMappingURL=pubserv.css.map */

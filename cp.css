@@ -26,6 +26,28 @@ section {
   padding-left: 9vw;
   padding-right: 9vw; }
 
+.svg-icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle; }
+
+.svg-text {
+  display: inline-block;
+  vertical-align: middle; }
+
+.svg-rarr {
+  fill: #4a4a4a; }
+
+.svg-download {
+  fill: #4a4a4a; }
+
+.svg-email {
+  fill: #ffffff; }
+
+.svg-star {
+  fill: #4a4a4a; }
+
 a {
   color: inherit;
   text-decoration: none; }
@@ -96,7 +118,7 @@ nav {
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding: 22px 36px;
+  padding: 19px 36px;
   background-color: #ffffff;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4); }
 
@@ -116,9 +138,18 @@ nav {
 
 .pages {
   display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
   margin-right: 30px;
   font-size: 1.5rem;
   vertical-align: middle; }
+  .pages:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  .pages.is-selected {
+    box-shadow: 0 14px 0 0 #ffffff, 0 19px 0 0; }
 
 footer {
   display: flex;

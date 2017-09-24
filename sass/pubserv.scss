@@ -1,6 +1,7 @@
 @import "vars";
 @import "mixins";
 @import "resets";
+@import "icons";
 
 @import "head-foot";
 
@@ -31,6 +32,7 @@ h2 {
 }
 
 h3 {
+	margin-bottom: 30px;
 	font: {
 		size: 2.4rem;
 		weight: 500;
@@ -49,6 +51,7 @@ h3 {
 
 h4 {
 	display: inline-block;
+	margin-bottom: 10px;
 	font: {
 		size: 1.8rem;
 		weight: 500;
@@ -95,19 +98,53 @@ section {
 
 .publication {
 	padding: {
-		top: 1em;
-		bottom: 1em;
+		top: 24px;
+		bottom: 24px;
 	}
 	border-top: 1px solid $grey;
 }
 
 .award {
 	display: inline-block;
-	margin-right: auto;
-	padding: 0.2em 2em;
+	margin: {
+		top: 15px;
+		right: auto;
+	}
+	padding: 0.2em 2em 0.2em 0;
 	background-color: white;
+
+	& .svg-star {
+		margin: {
+			left: 0.3em;
+			right: 0.5em;
+		}
+	}
 }
 
 .ref-links {
 	float: right;
+}
+
+.pub-bibtex {
+	margin-left: 10px;
+}
+
+.abstract {
+	margin-top: 15px;
+}
+[name="show-abstract"] {
+	position: fixed;
+	left: -3000px;
+
+	&:not(:checked) + .abstract{
+		max-width: 75%;
+		white-space: pre;
+		text-overflow: ellipsis;
+		overflow: hidden;
+
+		&:hover {
+			box-shadow: inset 0 -1px 0 0;
+			cursor: s-resize;
+		}
+	}
 }

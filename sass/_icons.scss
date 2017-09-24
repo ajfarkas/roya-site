@@ -1,0 +1,27 @@
+.svg-icon {
+	display: inline-block;
+	width: 1.2em;
+	height: 1.2em;
+	vertical-align: middle;
+}
+
+.svg-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.svg-rarr {
+	fill: $text-color;
+}
+
+.svg-download {
+	fill: $text-color;
+}
+
+.svg-email {
+	fill: $text-color-invert;
+}
+
+.svg-star {
+	fill: $text-color;
+}
