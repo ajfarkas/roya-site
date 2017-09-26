@@ -16,7 +16,7 @@ body {
   width: 100vw;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #4a4a4a; }
+  color: #2b2b2b; }
 
 main {
   background-color: #ffffff; }
@@ -34,19 +34,20 @@ section {
 
 .svg-text {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-weight: 400; }
 
 .svg-rarr {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 .svg-download {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 .svg-email {
   fill: #ffffff; }
 
 .svg-star {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 a {
   color: inherit;
@@ -63,16 +64,19 @@ h2 {
   margin-right: auto;
   margin-bottom: 1em;
   font-family: "Titillium Web", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #cdecc7; }
+  color: #cdecc7;
+  box-shadow: 0 6px 0 0 #70debc, inset 0 -2px #70debc; }
 
 h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 4rem;
   margin-bottom: 0;
   padding-top: 48px;
   padding-bottom: 12px;
-  color: #4a4a4a; }
+  color: #2b2b2b; }
 
 h5 {
   margin-bottom: 1em;
@@ -90,6 +94,15 @@ h6 {
 .subtitle {
   font-size: 2.0rem;
   font-weight: 300; }
+
+.proj-link {
+  padding: 2px 8px; }
+
+.news-copy {
+  line-height: 2.2rem; }
+
+.info-text {
+  line-height: 3rem; }
 
 nav {
   display: flex;
@@ -147,7 +160,7 @@ footer {
 
 .overview-wrap {
   background-color: #2f2d2d;
-  border-bottom: 1px solid #4a4a4a; }
+  border-bottom: 1px solid #2b2b2b; }
 
 .overview {
   display: flex;
@@ -186,7 +199,7 @@ footer {
   padding-top: 1.5em;
   padding-left: 2.5vw;
   padding-bottom: 2em;
-  border-left: 1px solid #4a4a4a; }
+  border-left: 1px solid rgba(255, 255, 255, 0.1); }
 
 .link-contact {
   margin-bottom: 2em;
@@ -273,6 +286,7 @@ a.project-copy {
   display: inline-block;
   margin-top: 15px;
   text-transform: uppercase;
-  box-shadow: 0 3px 0 0; }
+  box-shadow: 0 0 0 2px;
+  background-color: papayawhip; }
 
 /*# sourceMappingURL=cp.css.map */

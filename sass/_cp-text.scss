@@ -23,14 +23,17 @@ h2 {
 	}
 	font: {
 		family: $font2;
-		size: 1.5rem;
+		size: 2.5rem;
 		weight: 700;
 	}
 	text-transform: uppercase;
 	color: $pale-green;
+	box-shadow: 0 6px 0 0 $accent, inset 0 -2px $accent;
 }
 
 h3 {
+	font-family: $font2;
+	font-size: 4rem;
 	margin-bottom: 0;
 	padding: {
 		top: 48px;
@@ -63,4 +66,13 @@ h6 {
 		size: 2.0rem;
 		weight: 300;
 	}
+}
+.proj-link {
+	padding: 2px 8px;
+}
+.news-copy {
+	line-height: 2.2rem;
+}
+.info-text {
+	line-height: 3rem;
 }

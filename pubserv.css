@@ -16,7 +16,7 @@ body {
   width: 100vw;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #4a4a4a; }
+  color: #2b2b2b; }
 
 main {
   background-color: #ffffff; }
@@ -34,19 +34,20 @@ section {
 
 .svg-text {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-weight: 400; }
 
 .svg-rarr {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 .svg-download {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 .svg-email {
   fill: #ffffff; }
 
 .svg-star {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 nav {
   display: flex;

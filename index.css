@@ -16,7 +16,7 @@ body {
   width: 100vw;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #4a4a4a; }
+  color: #2b2b2b; }
 
 main {
   background-color: #ffffff; }
@@ -34,19 +34,20 @@ section {
 
 .svg-text {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-weight: 400; }
 
 .svg-rarr {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 .svg-download {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 .svg-email {
   fill: #ffffff; }
 
 .svg-star {
-  fill: #4a4a4a; }
+  fill: #2b2b2b; }
 
 a {
   color: inherit;
@@ -169,7 +170,7 @@ footer {
 
 .title-wrap {
   background-color: #2f2d2d;
-  border-bottom: 1px solid #4a4a4a; }
+  border-bottom: 1px solid #2b2b2b; }
 
 .title {
   padding-top: 2.6em;
@@ -226,7 +227,7 @@ label {
 
 .overview-wrap {
   background-color: #2f2d2d;
-  border-bottom: 1px solid #4a4a4a; }
+  border-bottom: 1px solid #2b2b2b; }
 
 .overview {
   display: flex;
@@ -265,7 +266,7 @@ label {
   padding-top: 1.5em;
   padding-left: 2.5vw;
   padding-bottom: 2em;
-  border-left: 1px solid #4a4a4a; }
+  border-left: 1px solid rgba(255, 255, 255, 0.1); }
 
 .link-contact {
   margin-bottom: 2em;

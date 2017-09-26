@@ -53,5 +53,6 @@ a.project-copy {
 	display: inline-block;
 	margin-top: 15px;
 	text-transform: uppercase;
-	box-shadow: 0 3px 0 0;
+	box-shadow: 0 0 0 2px;
+	background-color: $btn;
 }
