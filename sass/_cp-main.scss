@@ -1,0 +1,57 @@
+.overview-wrap,
+.overview {
+	background-color: $dark-blue;
+}
+
+.info-section-wrap:nth-of-type(2n) {
+	background-color: $off-white;
+}
+
+.info-section {
+	min-height: 400px;
+
+	.subtitle { margin-bottom: 25px; }
+}
+
+.research-projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.research-project {
+	flex: 1 1 50%;
+	padding: {
+		right: 5%;
+		bottom: 3em;
+	}
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.project-titles {
+	padding: {
+		left: 20px;
+		bottom: 8px;
+	}
+	border-left: 10px solid $cyan;
+	line-height: 24px;
+}
+
+.project-title,
+.project-subtitle {
+	font: {
+		size: 1.8rem;
+		weight: 500;
+	}
+}
+
+.project-copy {
+	margin-left: 30px;
+	line-height: 20px;
+}
+a.project-copy {
+	display: inline-block;
+	margin-top: 15px;
+	text-transform: uppercase;
+	box-shadow: 0 3px 0 0;
+}

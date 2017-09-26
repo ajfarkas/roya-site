@@ -1,0 +1,66 @@
+// text
+a {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		box-shadow: inset 0 -1px 0 0;
+	}
+}
+
+h1 {
+	font: {
+		size: inherit;
+		weight: inherit;
+	}
+}
+
+h2 {
+	display: inline-block;
+	margin: {
+		right: auto;
+		bottom: 1em;
+	}
+	font: {
+		family: $font2;
+		size: 1.5rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+	color: $pale-green;
+}
+
+h3 {
+	margin-bottom: 0;
+	padding: {
+		top: 48px;
+		bottom: 12px;
+	}
+	color: $dark-grey;
+}
+
+h5 {
+	margin-bottom: 1em;
+	font: {
+		family: $font2;
+		size: 1.5rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+}
+
+h6 {
+	margin-right: 15px;
+	font: {
+		size: 1.5rem;
+		weight: 300;
+	}
+	color: $grey;
+}
+
+.subtitle {
+	font: {
+		size: 2.0rem;
+		weight: 300;
+	}
+}
