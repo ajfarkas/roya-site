@@ -238,10 +238,8 @@ p.news-date {
 .info-section-wrap:nth-of-type(2n) {
   background-color: #f2f1f0; }
 
-.info-section {
-  min-height: 400px; }
-  .info-section .subtitle {
-    margin-bottom: 25px; }
+.info-section .subtitle {
+  margin-bottom: 25px; }
 
 .research-projects {
   display: flex;
