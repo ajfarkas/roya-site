@@ -83,7 +83,7 @@ h4 {
     display: block;
     width: calc(100% + 50px);
     height: 6px;
-    background-color: #232323; }
+    background-color: #2f2d2d; }
 
 h5 {
   margin-bottom: 1em;
@@ -155,7 +155,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 40px 63px;
-  background-color: #232323;
+  background-color: #2f2d2d;
   color: #ffffff; }
 
 @media only screen and (min-width: 700px) {
@@ -169,13 +169,13 @@ footer {
   margin-right: auto; }
 
 .overview-wrap {
-  background-color: #232323;
+  background-color: #2f2d2d;
   border-bottom: 1px solid #4a4a4a; }
 
 .overview {
   display: flex;
   flex-direction: column;
-  background-color: #232323;
+  background-color: #2f2d2d;
   color: #f2f1f0; }
 
 .overview p {
@@ -202,7 +202,7 @@ footer {
 .text-emphasis {
   font-weight: 300;
   color: #70debc;
-  background-color: #303035; }
+  background-color: rgba(255, 255, 255, 0.1); }
 
 .link-box {
   flex: 1 1 auto;
