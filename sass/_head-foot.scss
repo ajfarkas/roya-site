@@ -3,6 +3,7 @@ nav {
 	display: flex;
 	position: relative;
 	justify-content: space-between;
+	align-items: center;
 	padding: 19px 36px;
 	background-color: $bg;
 	box-shadow: 0 0 4px 0 rgba(0,0,0,0.4);
@@ -19,31 +20,19 @@ nav {
 .nav-links {
 	flex: 0 0 auto;
 // vertical align contents
-	&:after {
-		content: '';
-		display: inline-block;
-		width: 0;
-		height: 100%;
-		vertical-align: middle;
-	}
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .pages {
 	display: inline-block;
-	height: 100%;
 	box-sizing: border-box;
 	margin-right: 30px;
 	font-size: 1.5rem;
 	vertical-align: middle;
-	&:after {
-		content: '';
-		display: inline-block;
-		height: 100%;
-		vertical-align: middle;
-	}
 
 	&.is-selected {
-		box-shadow: 0 14px 0 0 $bg, 0 19px 0 0;
+		box-shadow: 0 16px 0 0 $bg, 0 21px 0 0;
 	}
 }
 

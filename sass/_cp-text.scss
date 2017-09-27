@@ -15,29 +15,15 @@ h1 {
 	}
 }
 
-h2 {
-	display: inline-block;
-	margin: {
-		right: auto;
-		bottom: 1em;
-	}
-	font: {
-		family: $font2;
-		size: 2.5rem;
-		weight: 700;
-	}
-	text-transform: uppercase;
-	color: $pale-green;
-	box-shadow: 0 6px 0 0 $accent, inset 0 -2px $accent;
-}
+// h2: see cp-main/cp-project
 
 h3 {
 	font-family: $font2;
 	font-size: 4rem;
 	margin-bottom: 0;
 	padding: {
-		top: 48px;
-		bottom: 12px;
+		top: 1em;
+		bottom: 0.25em;
 	}
 	color: $dark-grey;
 }
@@ -67,6 +53,15 @@ h6 {
 		weight: 300;
 	}
 }
+.subhead {
+	margin-top: 20px;
+	font: {
+		family: $font2;
+		size: 2.5rem;
+		weight: 500;
+	}
+}
+
 .proj-link {
 	padding: 2px 8px;
 }
@@ -75,4 +70,12 @@ h6 {
 }
 .info-text {
 	line-height: 3rem;
+}
+
+.copy-items {
+	margin-left: 3em;
+}
+.copy-item {
+	padding-left: 1em;
+	line-height: 2;
 }

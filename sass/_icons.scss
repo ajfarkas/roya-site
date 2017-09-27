@@ -1,15 +1,24 @@
-.svg-icon {
-	display: inline-block;
-	width: 1.2em;
-	height: 1.2em;
-	vertical-align: middle;
-}
-
+.svg-icon,
+.svg-logo,
 .svg-text {
 	display: inline-block;
 	vertical-align: middle;
+}
+.svg-icon {
+	width: 1.2em;
+	height: 1.2em;
+}
+.svg-logo {
+	width: 2em;
+	height: 2em;
+	margin:{
+		top: -0.5em;
+		bottom: -0.5em;
+	}
+}
+
+.svg-text {
 	font-weight: 400;
-    
 }
 
 .svg-rarr {

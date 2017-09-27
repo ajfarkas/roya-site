@@ -1,12 +1,30 @@
+h2 {
+	display: inline-block;
+	margin: {
+		right: auto;
+		bottom: 1em;
+	}
+	font: {
+		family: $font2;
+		size: 2.5rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+	color: $pale-green;
+	box-shadow: 0 6px 0 0 $accent, inset 0 -2px $accent;
+}
+
 .overview-wrap,
 .overview {
-	background-color: $dark-blue;
+	background-color: $bg-cp;
 }
 
 .info-section-wrap:nth-of-type(2n) {
 	background-color: $off-white;
 }
-
+.info-section-wrap:last-of-type {
+	padding-bottom: 80px;
+}
 .info-section {
 	// min-height: 400px;
 
