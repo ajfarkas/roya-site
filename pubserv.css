@@ -127,8 +127,7 @@ h3 {
 
 h4 {
   display: inline-block;
-  margin-bottom: 10px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500; }
 
 h6 {
@@ -136,6 +135,9 @@ h6 {
   font-size: 1.5rem;
   font-weight: 300;
   color: #bababa; }
+
+p {
+  line-height: 22px; }
 
 .subtitle {
   font-size: 2.0rem;
@@ -145,7 +147,7 @@ h6 {
 .pubserv {
   background-color: #f2f1f0; }
   .pubserv article {
-    max-width: 860px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     padding: 60px 5vw; }
@@ -177,7 +179,12 @@ section {
   margin-left: 10px; }
 
 .abstract {
-  margin-top: 15px; }
+  margin-top: 10px;
+  font-family: georgia;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 900px;
+  color: #2b2b2b; }
 
 [name="show-abstract"] {
   position: fixed;
@@ -196,5 +203,40 @@ section {
 
 .service-item {
   line-height: 2; }
+
+.auth-emph {
+  font-weight: 600; }
+
+.pub-in {
+  font-style: italic; }
+
+.titleblock {
+  display: flex;
+  flex-direction: row; }
+
+.title-box {
+  display: flex;
+  flex: 1 1 100%;
+  padding-bottom: 2px; }
+
+.link-box {
+  flex: 1 1 auto;
+  flex-basis: 300px;
+  padding-left: 2.5vw; }
+
+.abstract-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  padding-right: 10px; }
+
+.conf-paper {
+  font-family: "Titillium Web", sans-serif;
+  margin-left: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: peachpuff;
+  padding: 0 4px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=pubserv.css.map */
