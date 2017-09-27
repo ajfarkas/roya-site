@@ -10,7 +10,6 @@
 
 .overview-wrap {
 	background-color: $bg-invert;
-	border-bottom: 1px solid $dark-grey;
 }
 
 .overview {
@@ -38,11 +37,11 @@
 	height: 35vw;
 	max-height: 458px;
 	min-height: 200px;
+	margin-right: 2.5vw;
 }
 
 .info-texts {
 	padding: {
-		left: 2.5vw;
 		right: 4.5vw;
 	}
 	font-size: 1.8rem;
@@ -113,5 +112,5 @@ p.news-date {
 		line-height: 3rem;
 	}
 
-	.link-box { flex-basis: 500px; }
+	.link-box { flex-basis: 300px; }
 }

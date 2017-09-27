@@ -23,7 +23,7 @@ main {
 
 section {
   position: relative;
-  padding-left: 9vw;
+  padding-left: 11.5vw;
   padding-right: 9vw; }
 
 .svg-icon,
@@ -62,7 +62,7 @@ nav {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  padding: 19px 36px;
+  padding: 10px 36px;
   background-color: #ffffff;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4); }
 
