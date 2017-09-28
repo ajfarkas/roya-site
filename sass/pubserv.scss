@@ -131,11 +131,16 @@ section {
 
 .abstract {
 	margin-top: 10px;
-    font-family: georgia;
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 900px;
-    color: #2b2b2b;
+	font-family: georgia;
+	font-size: 1.4rem;
+	line-height: 20px;
+	max-width: 900px;
+	color: #2b2b2b;
+	&:before {
+		content: 'ABSTRACT:';
+		font-family: Titillium Web, sans-serif;
+		margin-right: 0.8em;
+	}
 }
 [name="show-abstract"] {
 	position: fixed;
@@ -175,22 +180,24 @@ section {
 } 
 
 .link-box {
-	flex: 1 1 auto;
-	flex-basis: 300px;
+	flex: 1 1 300px;
 	padding-left: 2.5vw;
+	text-align: right;
 }
 .abstract-label {
-    font-weight: 600;
-    text-transform: uppercase;
-    font-family: $font2;
-    padding-right: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: $font2;
+	padding-right: 10px;
 }
 .conf-paper {
-	font-family: $font2;
-    margin-left: 10px;
-    font-size: 13px;
-    text-transform: uppercase;
-    background-color: peachpuff;
-    padding: 0 4px;
-    font-weight: 300;
+	margin-left: 10px;
+	padding: 0 4px;
+	background-color: peachpuff;
+	text-transform: uppercase;
+	font: {
+		family: $font2;
+		size: 1.3rem;
+		weight: 300;
+	}
 }
