@@ -24,7 +24,8 @@ main {
 section {
   position: relative;
   padding-left: 11.5vw;
-  padding-right: 9vw; }
+  padding-right: 9vw;
+  padding-bottom: 40px; }
 
 .svg-icon,
 .svg-logo,
@@ -260,6 +261,9 @@ h2 {
 .overview-wrap {
   background-color: #32374a; }
 
+.overview {
+  max-width: 860px; }
+
 div.info-box {
   display: block;
   padding: 7em 0 2em; }
@@ -279,5 +283,10 @@ div.info-box {
 
 .info-section-wrap {
   padding-bottom: 80px; }
+
+.info-section {
+  max-width: 680px;
+  margin: 0 auto;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=cp-project.css.map */

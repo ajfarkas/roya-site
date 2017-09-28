@@ -24,7 +24,8 @@ main {
 section {
   position: relative;
   padding-left: 11.5vw;
-  padding-right: 9vw; }
+  padding-right: 9vw;
+  padding-bottom: 40px; }
 
 .svg-icon,
 .svg-logo,
@@ -163,8 +164,7 @@ p {
 
 section {
   margin-top: 40px;
-  padding-left: 0;
-  padding-right: 0; }
+  padding: 0; }
 
 .publication {
   padding-top: 24px;

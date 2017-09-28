@@ -20,6 +20,7 @@ h2 {
 .overview-wrap {
 	background-color: $bg-cp;
 }
+.overview { max-width: 860px; }
 
 div.info-box {
 	display: block;
@@ -44,4 +45,10 @@ div.info-box {
 
 .info-section-wrap {
 	padding-bottom: 80px;
+}
+
+.info-section {
+	max-width: $text-max;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
