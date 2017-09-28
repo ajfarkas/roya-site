@@ -169,7 +169,7 @@ section {
 .auth-emph { 
 	font-weight: 500;
     color: $dark-blue;
-    text-decoration: underline;
+    font-style: italic;
 }
 .pub-in { font-style: italic; }
 
@@ -192,10 +192,10 @@ section {
 		weight: 300;
 	}
 }
-.conf-paper { background-color: peachpuff;}
-.workshop { background-color: green;}
+.conf-paper { background-color: $yellow;}
+.workshop { background-color: $pale-green;}
 .blog-post { background-color: peachpuff;}
-.tech-report { background-color: green;}
+.tech-report { background-color: $accent;}
 
 @include breakpoint(750) {
 	.titleblock {
