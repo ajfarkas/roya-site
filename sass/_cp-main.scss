@@ -37,7 +37,7 @@ h2 {
 }
 
 .research-project {
-	flex: 1 1 50%;
+	flex: 1 1 100%;
 	padding: {
 		right: 5%;
 		bottom: 3em;
@@ -71,4 +71,10 @@ a.project-copy {
 	text-transform: uppercase;
 	box-shadow: 0 0 0 2px;
 	background-color: $btn;
+}
+
+@include breakpoint(800) {
+	.research-project {
+		flex-basis: 50%;
+	}
 }

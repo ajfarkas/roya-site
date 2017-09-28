@@ -38,10 +38,6 @@ div.info-box {
 	color: $lightest-grey;
 	border-bottom: solid 5px;
 }
-.nav-to {
-	display: inline-block;
-	margin-right: 20px;
-}
 
 .info-section-wrap {
 	padding-bottom: 80px;
@@ -51,4 +47,11 @@ div.info-box {
 	max-width: $text-max;
 	margin: 0 auto;
 	box-sizing: border-box;
+}
+
+@include breakpoint(600) {
+	.nav-to {
+		display: inline-block;
+		margin-right: 20px;
+	}
 }

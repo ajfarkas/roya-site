@@ -117,6 +117,7 @@ h6 {
 
 nav {
   display: flex;
+  flex-direction: column;
   position: relative;
   justify-content: space-between;
   align-items: center;
@@ -127,22 +128,21 @@ nav {
 .home {
   flex: 0 0 auto;
   font-size: 2.0rem;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-top: 15px; }
   .home:hover {
     box-shadow: none;
     color: #70debc; }
 
 .nav-links {
-  flex: 0 0 auto;
-  display: inline-block;
-  vertical-align: middle; }
+  flex: 0 0 auto; }
 
 .pages {
   display: inline-block;
   box-sizing: border-box;
   margin-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 1.5rem;
   vertical-align: middle; }
   .pages:not(.is-selected):hover {
@@ -153,15 +153,33 @@ nav {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 40px 63px;
   background-color: #2f2d2d;
   color: #ffffff; }
 
-@media only screen and (min-width: 700px) {
+h6 {
+  order: 1;
+  margin-top: 10px; }
+
+@media only screen and (min-width: 600px) {
+  nav {
+    flex-direction: row; }
+
+  .home {
+    padding-top: 0; }
+
   .pages {
-    margin-right: 30px;
-    font-size: 1.5rem; } }
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+  footer {
+    flex-direction: row; }
+
+  h6 {
+    order: 0;
+    margin-top: 0; } }
 .overview,
 .overview-info {
   max-width: 1300px;
@@ -281,7 +299,7 @@ h2 {
   flex-wrap: wrap; }
 
 .research-project {
-  flex: 1 1 50%;
+  flex: 1 1 100%;
   padding-right: 5%;
   padding-bottom: 3em;
   box-sizing: border-box;
@@ -308,5 +326,9 @@ a.project-copy {
   text-transform: uppercase;
   box-shadow: 0 0 0 2px;
   background-color: papayawhip; }
+
+@media only screen and (min-width: 800px) {
+  .research-project {
+    flex-basis: 50%; } }
 
 /*# sourceMappingURL=cp.css.map */
