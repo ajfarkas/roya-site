@@ -168,18 +168,18 @@ section {
 
 .publication {
   padding-top: 24px;
-  padding-bottom: 24px;
-  border-top: 1px solid #bababa; }
+  padding-bottom: 24px; }
 
 .award {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 6px;
   margin-right: auto;
-  padding: 0.2em 2em 0.2em 0;
+  padding: 0 10px 0 0;
   background-color: white; }
   .award .svg-star {
     margin-left: 0.3em;
-    margin-right: 0.5em; }
+    margin-right: 0.5em;
+    fill: #ffdc1e; }
 
 .ref-links {
   float: right; }
@@ -218,7 +218,9 @@ section {
   line-height: 2; }
 
 .auth-emph {
-  font-weight: 600; }
+  font-weight: 500;
+  color: #32374a;
+  text-decoration: underline; }
 
 .pub-in {
   font-style: italic; }

@@ -99,16 +99,15 @@ section {
 		top: 24px;
 		bottom: 24px;
 	}
-	border-top: 1px solid $grey;
 }
 
 .award {
 	display: inline-block;
 	margin: {
-		top: 15px;
+		top: 6px;
 		right: auto;
 	}
-	padding: 0.2em 2em 0.2em 0;
+	padding: 0 10px 0 0;
 	background-color: white;
 
 	& .svg-star {
@@ -116,6 +115,7 @@ section {
 			left: 0.3em;
 			right: 0.5em;
 		}
+		fill: $yellow;
 	}
 }
 
@@ -163,7 +163,11 @@ section {
 .service-item {
 	line-height: 2;
 }
-.auth-emph { font-weight: 600; }
+.auth-emph { 
+	font-weight: 500;
+    color: $dark-blue;
+    text-decoration: underline;
+}
 .pub-in { font-style: italic; }
 
 .titleblock {
