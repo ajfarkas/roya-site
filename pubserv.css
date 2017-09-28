@@ -175,7 +175,8 @@ section {
   margin-top: 6px;
   margin-right: auto;
   padding: 0 10px 0 0;
-  background-color: white; }
+  background-color: white;
+  font-size: 12px; }
   .award .svg-star {
     margin-left: 0.3em;
     margin-right: 0.5em;
@@ -245,13 +246,24 @@ section {
   font-family: "Titillium Web", sans-serif;
   padding-right: 10px; }
 
-.conf-paper {
+.conf-paper, .workshop, .blog-post, .tech-report {
   margin-left: 10px;
   padding: 0 4px;
-  background-color: peachpuff;
   text-transform: uppercase;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.3rem;
   font-weight: 300; }
+
+.conf-paper {
+  background-color: peachpuff; }
+
+.workshop {
+  background-color: green; }
+
+.blog-post {
+  background-color: peachpuff; }
+
+.tech-report {
+  background-color: green; }
 
 /*# sourceMappingURL=pubserv.css.map */
