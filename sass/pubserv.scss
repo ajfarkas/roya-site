@@ -65,7 +65,11 @@ h6 {
 	}
 	color: $grey;
 }
-p { line-height: 22px; }
+p { 
+	font-size: 13px;
+	line-height: 20px; 
+	color: $dark-grey;
+}
 
 .subtitle {
 	font: {
@@ -79,12 +83,12 @@ p { line-height: 22px; }
 	background-color: $off-white;
 
 	& article {
-		max-width: $article-max;
+		max-width: 1600px;
 		margin: {
 			left: auto;
 			right: auto;
 		}
-		padding: 60px 5vw;
+		padding: 60px 6vw;
 		box-sizing: border-box;
 	}
 }
@@ -95,6 +99,7 @@ section {
 }
 
 .publication {
+	margin-left: 240px;
 	padding: {
 		top: 24px;
 		bottom: 24px;
@@ -183,7 +188,8 @@ section {
 .workshop,
 .blog-post,
 .tech-report {
-	margin-left: 10px;
+	position: absolute;
+	margin-left: -240px;
 	padding: 0 4px;
 	text-transform: uppercase;
 	font: {
@@ -192,10 +198,10 @@ section {
 		weight: 300;
 	}
 }
-.conf-paper { background-color: $yellow;}
-.workshop { background-color: $pale-green;}
-.blog-post { background-color: peachpuff;}
-.tech-report { background-color: $accent;}
+.conf-paper { box-shadow: 0 1px 0 0 $green, inset 0 -8px $green; }
+.workshop { box-shadow: 0 1px 0 0 $pale-green, inset 0 -8px $pale-green; }
+.blog-post { box-shadow: 0 1px 0 0 peachpuff, inset 0 -8px peachpuff; }
+.tech-report { box-shadow: 0 1px 0 0 $yellow, inset 0 -8px $yellow; }
 
 @include breakpoint(750) {
 	.titleblock {
