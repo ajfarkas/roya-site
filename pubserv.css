@@ -244,13 +244,17 @@ section {
   margin-left: 1em; }
 
 .service-item {
-  line-height: 2.2rem;
-  padding: .5rem 0; }
+  line-height: 2.3rem;
+  padding: .7rem 0;
+  max-width: 850px; }
 
 .sub-item {
   margin-left: 3rem;
   font-size: 85%;
   line-height: 1.7rem; }
+
+.emphasis {
+  font-weight: 500; }
 
 .auth-emph {
   font-weight: 500;
