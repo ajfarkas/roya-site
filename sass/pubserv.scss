@@ -36,6 +36,7 @@ h2 {
 		weight: 500;
 	}
 	text-transform: uppercase;
+	padding-bottom: 8px;
 }
 
 h3 {
@@ -58,8 +59,9 @@ h3 {
 
 h4 {
 	display: inline-block;
+	padding-bottom: 2px;
 	font: {
-		size: 1.6rem;
+		size: 1.8rem;
 		weight: 500;
 	}
 }
@@ -195,6 +197,7 @@ section {
 	margin-left: 3rem;
 	font-size: 85%;
 	line-height: 1.7rem;
+	padding-bottom: 4px;
 }
 .emphasis { font-weight: 500; }
 .auth-emph { 

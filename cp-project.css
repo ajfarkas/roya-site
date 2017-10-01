@@ -335,5 +335,7 @@ div.info-box {
   .nav-to {
     display: inline-block;
     margin-right: 20px; } }
+.project-copy {
+  line-height: 2.2rem; }
 
 /*# sourceMappingURL=cp-project.css.map */
