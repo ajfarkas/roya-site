@@ -66,9 +66,8 @@ h6 {
 	color: $grey;
 }
 p { 
-	font-size: 13px;
-	line-height: 20px; 
-	color: $dark-grey;
+	font-size: 1.3rem;
+	line-height: 1.5;
 }
 
 .subtitle {
@@ -99,7 +98,6 @@ section {
 }
 
 .publication {
-	margin-left: 240px;
 	padding: {
 		top: 24px;
 		bottom: 24px;
@@ -107,6 +105,12 @@ section {
 }
 
 .titleblock { margin-bottom: 10px; }
+
+.title-box {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
 
 .award {
 	display: inline-block;
@@ -184,12 +188,8 @@ section {
 	font-family: $font2;
 	padding-right: 10px;
 }
-.conf-paper,
-.workshop,
-.blog-post,
-.tech-report {
-	position: absolute;
-	margin-left: -240px;
+
+.pub-type {
 	padding: 0 4px;
 	text-transform: uppercase;
 	font: {
@@ -204,6 +204,8 @@ section {
 .tech-report { box-shadow: 0 1px 0 0 $yellow, inset 0 -8px $yellow; }
 
 @include breakpoint(750) {
+	.publication { margin-left: 240px; }
+
 	.titleblock {
 		display: flex;
 		flex-direction: row;
@@ -212,9 +214,15 @@ section {
 
 	.title-box {
 		display: flex;
+		flex-direction: row;
 		flex: 1 1 100%;
 		padding-bottom: 2px;
-	} 
+	}
+
+	.pub-type {
+		position: absolute;
+		margin-left: -240px;
+	}
 
 	.link-box {
 		flex: 1 1 300px;

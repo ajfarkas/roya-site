@@ -164,9 +164,8 @@ h6 {
   color: #bababa; }
 
 p {
-  font-size: 13px;
-  line-height: 20px;
-  color: #2b2b2b; }
+  font-size: 1.3rem;
+  line-height: 1.5; }
 
 .subtitle {
   font-size: 2.0rem;
@@ -187,12 +186,16 @@ section {
   padding: 0; }
 
 .publication {
-  margin-left: 240px;
   padding-top: 24px;
   padding-bottom: 24px; }
 
 .titleblock {
   margin-bottom: 10px; }
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left; }
 
 .award {
   display: inline-block;
@@ -256,12 +259,7 @@ section {
   font-family: "Titillium Web", sans-serif;
   padding-right: 10px; }
 
-.conf-paper,
-.workshop,
-.blog-post,
-.tech-report {
-  position: absolute;
-  margin-left: -240px;
+.pub-type {
   padding: 0 4px;
   text-transform: uppercase;
   font-family: "Titillium Web", sans-serif;
@@ -281,6 +279,9 @@ section {
   box-shadow: 0 1px 0 0 #ffdc1e, inset 0 -8px #ffdc1e; }
 
 @media only screen and (min-width: 750px) {
+  .publication {
+    margin-left: 240px; }
+
   .titleblock {
     display: flex;
     flex-direction: row;
@@ -288,8 +289,13 @@ section {
 
   .title-box {
     display: flex;
+    flex-direction: row;
     flex: 1 1 100%;
     padding-bottom: 2px; }
+
+  .pub-type {
+    position: absolute;
+    margin-left: -240px; }
 
   .link-box {
     flex: 1 1 300px;
