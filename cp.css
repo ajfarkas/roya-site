@@ -46,17 +46,23 @@ section {
 .svg-text {
   font-weight: 400; }
 
-.svg-rarr {
-  fill: #2b2b2b; }
-
 .svg-download {
   fill: #2b2b2b; }
 
 .svg-email {
   fill: #ffffff; }
 
+.svg-rarr {
+  fill: #2b2b2b; }
+
 .svg-star {
   fill: #2b2b2b; }
+
+.svg-twitter {
+  fill: #e6e6e6; }
+
+footer .svg-icon {
+  fill: #e6e6e6; }
 
 a {
   color: inherit;
@@ -158,10 +164,25 @@ footer {
   padding: 40px 63px;
   background-color: #2f2d2d;
   color: #ffffff; }
+  footer .link-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 0;
+    color: #e6e6e6;
+    letter-spacing: 0.5px; }
+    footer .link-contact h5 {
+      color: #ffffff;
+      box-shadow: 0 1px 0 0 #ffdc1e, inset 0 -2px #ffdc1e; }
+    footer .link-contact a {
+      margin: 0.35em 0; }
 
-h6 {
-  order: 1;
-  margin-top: 10px; }
+.footer-one {
+  margin-top: 2rem; }
+
+.uni-logo {
+  height: 25px;
+  width: auto; }
 
 @media only screen and (min-width: 600px) {
   nav {
@@ -172,14 +193,22 @@ h6 {
 
   .pages {
     padding-top: 20px;
-    padding-bottom: 20px; }
-
+    padding-bottom: 20px; } }
+@media only screen and (min-width: 750px) {
   footer {
     flex-direction: row; }
 
-  h6 {
-    order: 0;
-    margin-top: 0; } }
+  .footer-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0; }
+
+  .uni-logo {
+    height: 40px; }
+
+  .footer-zero {
+    order: 2; } }
 .overview,
 .overview-info {
   max-width: 1300px;

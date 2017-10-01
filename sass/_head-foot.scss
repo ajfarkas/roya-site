@@ -53,11 +53,31 @@ footer {
 	padding: 40px 63px;
 	background-color: $bg-invert;
 	color: $text-color-invert;
+
+	.link-contact {
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		margin-bottom: 0;
+		color: $lightest-grey;
+		letter-spacing: 0.5px;
+
+		h5 {
+			color: $text-color-invert;
+			@include underline($yellow);
+		}
+
+		a { margin: 0.35em 0; }
+	}
 }
 
-h6 {
-	order: 1;
-	margin-top: 10px;
+.footer-one {
+	margin-top: 2rem;
+}
+
+.uni-logo {
+	height: 25px;
+	width: auto;
 }
 
 @include breakpoint(600) {
@@ -71,11 +91,19 @@ h6 {
 			bottom: 20px;
 		}
 	}
+}
 
+@include breakpoint(750) {
 	footer { flex-direction: row; }
 
-	h6 {
-		order: 0;
+	.footer-one {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		margin-top: 0;
 	}
+
+	.uni-logo { height: 40px; }
+
+	.footer-zero { order: 2; }
 }

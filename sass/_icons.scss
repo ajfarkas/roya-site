@@ -21,10 +21,6 @@
 	font-weight: 400;
 }
 
-.svg-rarr {
-	fill: $text-color;
-}
-
 .svg-download {
 	fill: $text-color;
 }
@@ -33,6 +29,18 @@
 	fill: $text-color-invert;
 }
 
+.svg-rarr {
+	fill: $text-color;
+}
+
 .svg-star {
 	fill: $text-color;
+}
+
+.svg-twitter {
+	fill: $lightest-grey;
+}
+
+footer .svg-icon {
+	fill: $lightest-grey;
 }
