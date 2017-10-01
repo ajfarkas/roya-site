@@ -152,17 +152,20 @@ section {
 
 .abstract {
 	margin-top: 10px;
-	font-family: georgia;
-	font-size: 1.4rem;
-	line-height: 20px;
+	font: {
+		family: georgia, sans-serif;
+		size: 1.4rem;
+	}
+	line-height: 1.4;
 	max-width: 900px;
-	color: #2b2b2b;
+
 	&:before {
 		content: 'ABSTRACT:';
-		font-family: Titillium Web, sans-serif;
+		font-family: $font2;
 		margin-right: 0.8em;
 	}
 }
+// CSS hack for show/hide functionality
 [name="show-abstract"] {
 	position: fixed;
 	left: -3000px;
