@@ -322,6 +322,23 @@ h2 {
 .diagram-section {
   padding-bottom: 40px; }
 
+figure {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center; }
+  figure img {
+    max-width: 100%;
+    height: auto; }
+
+figcaption {
+  box-sizing: border-box;
+  margin: 0 30px;
+  text-align: left;
+  font-size: 1.3rem; }
+
+.fig-num {
+  font-weight: 500; }
+
 .info-section .subtitle {
   margin-bottom: 25px; }
 
