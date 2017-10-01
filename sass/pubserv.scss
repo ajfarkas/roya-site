@@ -9,9 +9,10 @@
 a {
 	color: inherit;
 	text-decoration: none;
+	box-shadow: inset 0 -2px 0 0 $pale-green;
 
 	&:hover {
-		box-shadow: inset 0 -1px 0 0;
+		box-shadow: inset 0 -18px 0 0 $pale-green;
 	}
 }
 
@@ -173,7 +174,13 @@ section {
 	margin-left: 1em;
 }
 .service-item {
-	line-height: 2;
+	line-height: 2.2rem;
+	padding: .5rem 0;
+}
+.sub-item {
+	margin-left: 3rem;
+	font-size: 85%;
+	line-height: 1.7rem;
 }
 .auth-emph { 
 	font-weight: 500;
