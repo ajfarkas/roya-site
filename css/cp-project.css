@@ -327,9 +327,11 @@ div.info-box {
   padding-bottom: 80px; }
 
 .info-section {
-  max-width: 680px;
+  max-width: 860px;
   margin: 0 auto;
   box-sizing: border-box; }
+  .info-section > * {
+    max-width: 680px; }
 
 @media only screen and (min-width: 600px) {
   .nav-to {

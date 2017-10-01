@@ -44,9 +44,11 @@ div.info-box {
 }
 
 .info-section {
-	max-width: $text-max;
+	max-width: 860px;
 	margin: 0 auto;
 	box-sizing: border-box;
+
+	& > * { max-width: $text-max; }
 }
 
 @include breakpoint(600) {
