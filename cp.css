@@ -372,8 +372,9 @@ a.project-copy {
   display: inline-block;
   margin-top: 15px;
   text-transform: uppercase;
-  box-shadow: 0 0 0 2px;
-  background-color: papayawhip; }
+  box-shadow: 0 0 0 2px; }
+  a.project-copy:hover {
+    background-color: papayawhip; }
 
 @media only screen and (min-width: 800px) {
   .research-project {

@@ -90,7 +90,7 @@ a.project-copy {
 	margin-top: 15px;
 	text-transform: uppercase;
 	box-shadow: 0 0 0 2px;
-	background-color: $btn;
+	&:hover { background-color: $btn; }
 }
 
 @include breakpoint(800) {
