@@ -25,11 +25,11 @@ h2 {
 .info-section-wrap:last-of-type {
 	padding-bottom: 80px;
 }
-.info-section {
-	// min-height: 400px;
-
-	.subtitle { margin-bottom: 25px; }
+.diagram-section {
+	padding-bottom: 40px;
 }
+
+.info-section .subtitle { margin-bottom: 25px; }
 
 .research-projects {
 	display: flex;

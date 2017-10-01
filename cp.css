@@ -24,8 +24,7 @@ main {
 section {
   position: relative;
   padding-left: 11.5vw;
-  padding-right: 9vw;
-  padding-bottom: 40px; }
+  padding-right: 9vw; }
 
 .svg-icon,
 .svg-logo,
@@ -319,6 +318,9 @@ h2 {
 
 .info-section-wrap:last-of-type {
   padding-bottom: 80px; }
+
+.diagram-section {
+  padding-bottom: 40px; }
 
 .info-section .subtitle {
   margin-bottom: 25px; }
