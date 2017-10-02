@@ -161,7 +161,7 @@ footer {
   margin-top: 2rem; }
 
 .uni-logo {
-  height: 25px;
+  height: 22px;
   width: auto; }
 
 @media only screen and (min-width: 600px) {
@@ -185,7 +185,7 @@ footer {
     margin-top: 0; }
 
   .uni-logo {
-    height: 40px; }
+    height: 30px; }
 
   .footer-zero {
     order: 2; } }
@@ -193,12 +193,7 @@ a {
   color: inherit;
   text-decoration: none; }
   a:hover {
-    box-shadow: inset 0 -1px; }
-
-main a {
-  box-shadow: inset 0 -2px 0 0 #cdecc7; }
-  main a:hover {
-    box-shadow: inset 0 -18px 0 0 #cdecc7; }
+    color: #bababa; }
 
 h1 {
   font-size: inherit;
@@ -353,13 +348,13 @@ section {
   font-weight: 300; }
 
 .conf-paper {
-  box-shadow: 0 1px 0 0 #88f7e3, inset 0 -8px #88f7e3; }
+  box-shadow: 0 1px 0 0 #70debc, inset 0 -8px #70debc; }
 
 .workshop {
   box-shadow: 0 1px 0 0 #cdecc7, inset 0 -8px #cdecc7; }
 
 .blog-post {
-  box-shadow: 0 1px 0 0 peachpuff, inset 0 -8px peachpuff; }
+  box-shadow: 0 1px 0 0 lightsteelblue, inset 0 -8px lightsteelblue; }
 
 .tech-report {
   box-shadow: 0 1px 0 0 #ffdc1e, inset 0 -8px #ffdc1e; }

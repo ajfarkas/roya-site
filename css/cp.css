@@ -218,7 +218,7 @@ footer {
   margin-top: 2rem; }
 
 .uni-logo {
-  height: 25px;
+  height: 22px;
   width: auto; }
 
 @media only screen and (min-width: 600px) {
@@ -242,7 +242,7 @@ footer {
     margin-top: 0; }
 
   .uni-logo {
-    height: 40px; }
+    height: 30px; }
 
   .footer-zero {
     order: 2; } }
@@ -299,6 +299,9 @@ footer {
   .link-contact h5 {
     display: inline-block;
     box-shadow: 0 1px 0 0 #88f7e3, inset 0 -2px #88f7e3; }
+  .link-contact a {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em; }
 
 .link-news h5 {
   display: inline-block;
@@ -406,12 +409,13 @@ figcaption {
   margin-left: 30px;
   line-height: 1.3; }
 
-a.project-copy {
+.learn-more {
   display: inline-block;
+  margin-left: 30px;
   margin-top: 15px;
   text-transform: uppercase;
-  box-shadow: 0 0 0 2px; }
-  a.project-copy:hover {
+  outline: solid 2px; }
+  .learn-more:hover {
     background-color: papayawhip; }
 
 @media only screen and (min-width: 800px) {

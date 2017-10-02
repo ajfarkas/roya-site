@@ -11,16 +11,10 @@ a {
 	text-decoration: none;
 
 	&:hover {
-		box-shadow: inset 0 -1px;
+		color: $grey;
 	}
 }
-main a {
-	box-shadow: inset 0 -2px 0 0 $pale-green;
 
-	&:hover {
-		box-shadow: inset 0 -18px 0 0 $pale-green;
-	}
-}
 
 h1 {
 	font: {
@@ -223,9 +217,9 @@ section {
 		weight: 300;
 	}
 }
-.conf-paper { box-shadow: 0 1px 0 0 $green, inset 0 -8px $green; }
+.conf-paper { box-shadow: 0 1px 0 0 $accent, inset 0 -8px $accent; }
 .workshop { box-shadow: 0 1px 0 0 $pale-green, inset 0 -8px $pale-green; }
-.blog-post { box-shadow: 0 1px 0 0 peachpuff, inset 0 -8px peachpuff; }
+.blog-post { box-shadow: 0 1px 0 0 lightsteelblue, inset 0 -8px lightsteelblue; }
 .tech-report { box-shadow: 0 1px 0 0 $yellow, inset 0 -8px $yellow; }
 
 @include breakpoint(750) {

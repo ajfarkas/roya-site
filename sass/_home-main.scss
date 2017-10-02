@@ -1,4 +1,12 @@
 // main index
+.learn-more {
+	display: inline-block;
+	margin-top: 15px;
+	text-transform: uppercase;
+	outline: solid 1px;
+	padding: 2px 6px;
+	&:hover { color: $accent}
+}
 .title {
 	max-width: $page-max;
 	margin: {

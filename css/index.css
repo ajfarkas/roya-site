@@ -96,7 +96,7 @@ h4 {
   position: relative;
   display: inline-block;
   margin-bottom: 18px;
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   font-weight: 500;
   font-family: "Titillium Web", sans-serif; }
   h4:after {
@@ -227,7 +227,7 @@ footer {
   margin-top: 2rem; }
 
 .uni-logo {
-  height: 25px;
+  height: 22px;
   width: auto; }
 
 @media only screen and (min-width: 600px) {
@@ -251,10 +251,19 @@ footer {
     margin-top: 0; }
 
   .uni-logo {
-    height: 40px; }
+    height: 30px; }
 
   .footer-zero {
     order: 2; } }
+.learn-more {
+  display: inline-block;
+  margin-top: 15px;
+  text-transform: uppercase;
+  outline: solid 1px;
+  padding: 2px 6px; }
+  .learn-more:hover {
+    color: #70debc; }
+
 .title {
   max-width: 1300px;
   margin-left: auto;
@@ -364,6 +373,9 @@ label {
   .link-contact h5 {
     display: inline-block;
     box-shadow: 0 1px 0 0 #88f7e3, inset 0 -2px #88f7e3; }
+  .link-contact a {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em; }
 
 .link-news h5 {
   display: inline-block;
