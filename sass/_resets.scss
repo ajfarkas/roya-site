@@ -33,3 +33,10 @@ section {
 		right: 9vw;
 	}
 }
+
+.ghost {
+	position: fixed;
+	top: -100vh;
+	left: -200vw;
+	opacity: 0;
+}

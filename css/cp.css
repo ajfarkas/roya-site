@@ -26,6 +26,12 @@ section {
   padding-left: 11.5vw;
   padding-right: 9vw; }
 
+.ghost {
+  position: fixed;
+  top: -100vh;
+  left: -200vw;
+  opacity: 0; }
+
 .svg-icon,
 .svg-logo,
 .svg-text {
@@ -144,17 +150,49 @@ nav {
 
 .pages {
   display: inline-block;
+  position: relative;
   box-sizing: border-box;
-  margin-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.5rem;
-  vertical-align: middle; }
+  vertical-align: middle;
+  cursor: pointer; }
+  .pages:not(:last-child) {
+    margin-right: 30px; }
   .pages:not(.is-selected):hover {
     color: #70debc;
     box-shadow: inset 0 -5px 0 0; }
   .pages.is-selected {
     box-shadow: inset 0 -5px 0 0; }
+
+.drop-list {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + 2px);
+  right: -10px;
+  min-width: 200px;
+  padding: 8px 12px;
+  list-style: none;
+  background-color: #ffffff;
+  color: #2b2b2b;
+  text-align: right;
+  box-shadow: 2px 2px 1px 0 rgba(102, 205, 170, 0.4); }
+  .drop-list:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: -2px;
+    left: 0; }
+
+.drop-item {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.pages:hover > .drop-list {
+  display: block; }
 
 footer {
   display: flex;
