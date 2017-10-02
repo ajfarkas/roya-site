@@ -46,10 +46,13 @@
 					<div class="link-contact">
 						<h5>Contact</h5>
 						<br/>
-						<a href="mailto:ensafi@umich.edu">ensafi [@] umich.edu</a>
-						<a href="https://ensa.fi/CV-RoyaEnsafi.pdf">
-							<p>CV</p>
-						</a>
+						<div><a href="mailto:ensafi@umich.edu">ensafi [@] umich.edu</a></div>
+						<div><a href="https://ensa.fi/CV-RoyaEnsafi.pdf">
+							<p class="svg-text">CV</p>
+							<svg class="svg-icon svg-download">
+								<use href="#svg-download"/>
+							</svg>
+						</a></div>
 					</div>
 					<div class="link-news">
 						<h5>News</h5>
@@ -143,6 +146,9 @@
 	</footer>
 	<svg id="svg-icons" style="display:none">
 		<defs>
+			<symbol id="svg-download" viewBox="0 0 24 24">
+				<path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" />
+			</symbol>
 			<symbol id="svg-email" viewBox="0 0 24 24">
 				<path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
 			</symbol>

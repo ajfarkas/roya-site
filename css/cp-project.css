@@ -302,6 +302,10 @@ footer {
   .link-contact a {
     padding-top: 0.3em;
     padding-bottom: 0.3em; }
+  .link-contact p {
+    margin-bottom: 0; }
+  .link-contact .svg-icon {
+    fill: #ffffff; }
 
 .link-news h5 {
   display: inline-block;

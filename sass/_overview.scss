@@ -77,6 +77,10 @@
 			bottom: 0.3em;
 		}
 	}
+
+	& p { margin-bottom: 0; }
+
+	& .svg-icon { fill: $text-color-invert; }
 }
 .link-news h5 {
 	display: inline-block;
