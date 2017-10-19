@@ -108,13 +108,11 @@
 	.overview { flex-direction: row; }
 
 	.info-box {
-		display: flex;
 		flex: 1 1 100%;
 		padding-bottom: 80px;
 
 		& > a {
 			padding-right: 0;
-			float: none;
 		} 
 	}
 
