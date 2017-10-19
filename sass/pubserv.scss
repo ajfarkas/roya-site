@@ -51,6 +51,7 @@ h3 {
 h4 {
 	display: inline-block;
 	padding-bottom: 2px;
+	font-family: $font2;
 	font: {
 		size: 1.8rem;
 		weight: 500;
@@ -72,6 +73,10 @@ h6 {
 		weight: 300;
 	}
 	color: $grey;
+}
+p { 
+	font-size: 1.3rem;
+	line-height: 1.8rem;
 }
 
 .subtitle {
@@ -107,8 +112,6 @@ section {
 	padding-bottom: 12px;
 }
 
-.titleblock { margin-bottom: 10px; }
-
 .title-box {
 	display: flex;
 	flex-direction: column;
@@ -143,10 +146,10 @@ section {
 }
 
 .abstract {
-	margin-top: 10px;
+	margin-top: 6px;
 	font: {
 		family: georgia, sans-serif;
-		size: 1.4rem;
+		size: 1.3rem;
 	}
 	line-height: 1.4;
 	max-width: 900px;
@@ -204,10 +207,12 @@ section {
 	padding-right: 10px;
 }
 
-.conf-paper { border-left: 8px solid $yellow; }
-.workshop { border-left: 8px solid $pale-green; }
+.conf-paper { 
+	border-left: 8px solid $yellow; 
+}
+.workshop { border-left: 8px solid $accent; }
 .blog-post { border-left: 8px solid lightsteelblue; }
-.tech-report { border-left: 8px solid $accent; }
+.tech-report { border-left: 8px solid $pale-green; }
 
 @include breakpoint(750) {
 
@@ -215,6 +220,8 @@ section {
 		display: flex;
 		flex-direction: row;
 		margin-bottom: 0;
+		margin-left: -16px;
+		padding-left: 8px;
 	}
 
 	.title-box {

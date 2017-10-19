@@ -221,6 +221,7 @@ h3 {
 h4 {
   display: inline-block;
   padding-bottom: 2px;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.8rem;
   font-weight: 500; }
 
@@ -236,6 +237,10 @@ h6 {
   font-size: 1.5rem;
   font-weight: 300;
   color: #bababa; }
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.8rem; }
 
 .subtitle {
   font-size: 2.0rem;
@@ -259,9 +264,6 @@ section {
   padding-left: 1.6rem;
   margin-bottom: 1rem;
   padding-bottom: 12px; }
-
-.titleblock {
-  margin-bottom: 10px; }
 
 .title-box {
   display: flex;
@@ -287,9 +289,9 @@ section {
   margin-left: 10px; }
 
 .abstract {
-  margin-top: 10px;
+  margin-top: 6px;
   font-family: georgia, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.4;
   max-width: 900px; }
   .abstract:before {
@@ -344,19 +346,21 @@ section {
   border-left: 8px solid #ffdc1e; }
 
 .workshop {
-  border-left: 8px solid #cdecc7; }
+  border-left: 8px solid #70debc; }
 
 .blog-post {
   border-left: 8px solid lightsteelblue; }
 
 .tech-report {
-  border-left: 8px solid #70debc; }
+  border-left: 8px solid #cdecc7; }
 
 @media only screen and (min-width: 750px) {
   .titleblock {
     display: flex;
     flex-direction: row;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-left: -16px;
+    padding-left: 8px; }
 
   .title-box {
     display: flex;
