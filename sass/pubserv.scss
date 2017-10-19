@@ -102,10 +102,9 @@ section {
 }
 
 .publication {
-	padding: {
-		top: 24px;
-		bottom: 24px;
-	}
+	padding-left: 1.6rem;
+	margin-bottom: 1rem;
+	padding-bottom: 12px;
 }
 
 .titleblock { margin-bottom: 10px; }
@@ -205,22 +204,12 @@ section {
 	padding-right: 10px;
 }
 
-.pub-type {
-	padding: 0 4px;
-	text-transform: uppercase;
-	font: {
-		family: $font2;
-		size: 1.3rem;
-		weight: 300;
-	}
-}
-.conf-paper { box-shadow: 0 1px 0 0 $accent, inset 0 -8px $accent; }
-.workshop { box-shadow: 0 1px 0 0 $pale-green, inset 0 -8px $pale-green; }
-.blog-post { box-shadow: 0 1px 0 0 lightsteelblue, inset 0 -8px lightsteelblue; }
-.tech-report { box-shadow: 0 1px 0 0 $yellow, inset 0 -8px $yellow; }
+.conf-paper { border-left: 8px solid $yellow; }
+.workshop { border-left: 8px solid $pale-green; }
+.blog-post { border-left: 8px solid lightsteelblue; }
+.tech-report { border-left: 8px solid $accent; }
 
 @include breakpoint(750) {
-	.publication { margin-left: 240px; }
 
 	.titleblock {
 		display: flex;
@@ -233,11 +222,6 @@ section {
 		flex-direction: row;
 		flex: 1 1 100%;
 		padding-bottom: 2px;
-	}
-
-	.pub-type {
-		position: absolute;
-		margin-left: -240px;
 	}
 
 	.link-box {
