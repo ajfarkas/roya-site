@@ -22,7 +22,7 @@
 
 .info-box {
 	padding: {
-		top: 2.5em;
+		top: 1.8em;
 		bottom: 20px;
 	}
 
@@ -87,7 +87,7 @@
 	@include underline($yellow);
 	letter-spacing: 0.5px;
 }
-p.news-date {
+.news-date {
 	font-weight: 400;
 	letter-spacing: 0.7px;
 	text-transform: uppercase;

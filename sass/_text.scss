@@ -35,22 +35,19 @@ h3 {
 }
 
 h4 {
-	position: relative;
 	display: inline-block;
-	margin-bottom: 18px;
+	margin: {
+		right: auto;
+		bottom: 1em;
+	}
 	font: {
-		size: 3.2rem;
-		weight: 500;
+		family: $font2;
+		size: 2.5rem;
+		weight: 700;
 	}
-	font-family: $font2;
-
-	&:after {
-		content: '';
-		display: block;
-		width: calc(100% + 50px);
-		height: 6px;
-		background-color: $black;
-	}
+	text-transform: uppercase;
+	box-shadow: 0 2px 0 0 $accent, inset 0 -6px $accent;
+	padding-bottom: 0;
 }
 
 h5 {

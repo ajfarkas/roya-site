@@ -34,23 +34,20 @@ h2 {
 }
 
 h3 {
-	margin-bottom: 30px;
+	display: inline-block;
+	margin: {
+		right: auto;
+		bottom: 1em;
+	}
 	font: {
-		size: 2.4rem;
-		weight: 500;
+		family: $font2;
+		size: 2.5rem;
+		weight: 700;
 	}
-	color: $black;
-
-	&:before {
-		content: '';
-		display: block;
-		margin-bottom: 8px;
-		width: 60px;
-		height: 10px;
-		background-color: $cyan;
-	}
+	text-transform: uppercase;
+	box-shadow: 0 2px 0 0 #70debc, inset 0 -6px $accent;
+	padding-bottom: 0;
 }
-
 h4 {
 	display: inline-block;
 	padding-bottom: 2px;

@@ -265,7 +265,7 @@ footer {
   margin-bottom: 1em; }
 
 .info-box {
-  padding-top: 2.5em;
+  padding-top: 1.8em;
   padding-bottom: 20px; }
   .info-box > a {
     float: left;
@@ -313,7 +313,7 @@ footer {
   box-shadow: 0 1px 0 0 #ffdc1e, inset 0 -2px #ffdc1e;
   letter-spacing: 0.5px; }
 
-p.news-date {
+.news-date {
   font-weight: 400;
   letter-spacing: 0.7px;
   text-transform: uppercase;

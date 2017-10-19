@@ -93,18 +93,15 @@ h3 {
   color: #b7b793; }
 
 h4 {
-  position: relative;
   display: inline-block;
-  margin-bottom: 18px;
-  font-size: 3.2rem;
-  font-weight: 500;
-  font-family: "Titillium Web", sans-serif; }
-  h4:after {
-    content: '';
-    display: block;
-    width: calc(100% + 50px);
-    height: 6px;
-    background-color: #2f2d2d; }
+  margin-right: auto;
+  margin-bottom: 1em;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 2px 0 0 #70debc, inset 0 -6px #70debc;
+  padding-bottom: 0; }
 
 h5 {
   margin-bottom: 1em;
@@ -276,8 +273,8 @@ footer {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
 .title {
-  padding-top: 2.6em;
-  padding-bottom: 2.6em;
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
   background-color: #2f2d2d;
   color: #ffffff; }
 
@@ -343,7 +340,7 @@ label {
   margin-bottom: 1em; }
 
 .info-box {
-  padding-top: 2.5em;
+  padding-top: 1.8em;
   padding-bottom: 20px; }
   .info-box > a {
     float: left;
@@ -391,7 +388,7 @@ label {
   box-shadow: 0 1px 0 0 #ffdc1e, inset 0 -2px #ffdc1e;
   letter-spacing: 0.5px; }
 
-p.news-date {
+.news-date {
   font-weight: 400;
   letter-spacing: 0.7px;
   text-transform: uppercase;
