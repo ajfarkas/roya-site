@@ -79,6 +79,34 @@ p {
 	line-height: 1.8rem;
 }
 
+.title-container {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+legend {
+	display: inline-block;
+	padding: 5px 9px;
+	border: 1px solid;
+	font-size: 1.2rem;
+	line-height: 1.3;
+	vertical-align: top;
+}
+
+.key:before {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.conf-paper-key:before { background-color: $yellow; }
+.workshop-key:before { background-color: $accent; }
+.tech-report-key:before { background-color: $pale-green; }
+.blog-post-key:before { background-color: lightsteelblue; }
+
 .subtitle {
 	font: {
 		size: 2.0rem;
@@ -112,6 +140,11 @@ section {
 	padding-bottom: 12px;
 }
 
+.titleblock {
+	margin-left: -16px;
+	padding-left: 8px;
+}
+
 .title-box {
 	display: flex;
 	flex-direction: column;
@@ -141,7 +174,7 @@ section {
 	float: right;
 }
 
-.pub-bibtex {
+.link-box > a:not(:first-of-type) {
 	margin-left: 10px;
 }
 
@@ -220,8 +253,6 @@ section {
 		display: flex;
 		flex-direction: row;
 		margin-bottom: 0;
-		margin-left: -16px;
-		padding-left: 8px;
 	}
 
 	.title-box {
@@ -235,5 +266,19 @@ section {
 		flex: 1 1 300px;
 		padding-left: 2.5vw;
 		text-align: right;
+
+		& > a:nth-of-type(2n + 3) {
+			margin-left: 0;
+
+			&:before {
+				content: '';
+				display: block;
+			}
+		}
 	}
+}
+
+@include breakpoint(840) {
+	.title-container { margin-bottom: 0; }
+	legend { float: right; }
 }

@@ -242,6 +242,39 @@ p {
   font-size: 1.3rem;
   line-height: 1.8rem; }
 
+.title-container {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+legend {
+  display: inline-block;
+  padding: 5px 9px;
+  border: 1px solid;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  vertical-align: top; }
+
+.key:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 10px;
+  vertical-align: middle; }
+
+.conf-paper-key:before {
+  background-color: #ffdc1e; }
+
+.workshop-key:before {
+  background-color: #70debc; }
+
+.tech-report-key:before {
+  background-color: #cdecc7; }
+
+.blog-post-key:before {
+  background-color: lightsteelblue; }
+
 .subtitle {
   font-size: 2.0rem;
   font-weight: 300;
@@ -265,6 +298,10 @@ section {
   margin-bottom: 1rem;
   padding-bottom: 12px; }
 
+.titleblock {
+  margin-left: -16px;
+  padding-left: 8px; }
+
 .title-box {
   display: flex;
   flex-direction: column;
@@ -285,7 +322,7 @@ section {
 .ref-links {
   float: right; }
 
-.pub-bibtex {
+.link-box > a:not(:first-of-type) {
   margin-left: 10px; }
 
 .abstract {
@@ -358,9 +395,7 @@ section {
   .titleblock {
     display: flex;
     flex-direction: row;
-    margin-bottom: 0;
-    margin-left: -16px;
-    padding-left: 8px; }
+    margin-bottom: 0; }
 
   .title-box {
     display: flex;
@@ -371,6 +406,17 @@ section {
   .link-box {
     flex: 1 1 300px;
     padding-left: 2.5vw;
-    text-align: right; } }
+    text-align: right; }
+    .link-box > a:nth-of-type(2n + 3) {
+      margin-left: 0; }
+      .link-box > a:nth-of-type(2n + 3):before {
+        content: '';
+        display: block; } }
+@media only screen and (min-width: 840px) {
+  .title-container {
+    margin-bottom: 0; }
+
+  legend {
+    float: right; } }
 
 /*# sourceMappingURL=pubserv.css.map */
