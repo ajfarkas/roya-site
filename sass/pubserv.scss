@@ -74,9 +74,12 @@ h6 {
 	}
 	color: $grey;
 }
-p { 
+.publication p { 
 	font-size: 1.3rem;
 	line-height: 1.8rem;
+}
+p.pub-type {
+	font-weight: 400;
 }
 
 .title-container {
