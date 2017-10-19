@@ -222,7 +222,6 @@ h4 {
   padding-bottom: 2px;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.8rem;
-  line-height: 2.4rem;
   font-weight: 500; }
 
 h5 {
@@ -279,6 +278,11 @@ legend {
 
 .blog-post-key:before {
   background-color: lightsteelblue; }
+
+.title-container {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px; }
 
 .subtitle {
   font-size: 2.0rem;
