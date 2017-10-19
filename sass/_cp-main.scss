@@ -14,6 +14,22 @@ h2 {
 	box-shadow: 0 6px 0 0 $accent, inset 0 -2px $accent;
 }
 
+h3 {
+	display: inline-block;
+	margin: {
+		right: auto;
+		bottom: 1em;
+	}
+	font: {
+		family: $font2;
+		size: 2.5rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+	box-shadow: 0 2px 0 0 #70debc, inset 0 -6px $accent;
+	padding-bottom: 0;
+}
+
 .overview-wrap,
 .overview {
 	background-color: $bg-cp;
@@ -69,7 +85,7 @@ figcaption {
 .project-titles {
 	padding-left: 20px;
 	margin-bottom: 8px;
-	border-left: 10px solid $cyan;
+	border-left: 10px solid $yellow;
 	line-height: 1.3;
 }
 

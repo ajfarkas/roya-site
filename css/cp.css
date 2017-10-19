@@ -134,7 +134,8 @@ nav {
   align-items: center;
   padding: 0 36px;
   background-color: #ffffff;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4); }
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+  border-top: 2px solid #32374a; }
 
 .home {
   flex: 0 0 auto;
@@ -354,6 +355,17 @@ h2 {
   color: #cdecc7;
   box-shadow: 0 6px 0 0 #70debc, inset 0 -2px #70debc; }
 
+h3 {
+  display: inline-block;
+  margin-right: auto;
+  margin-bottom: 1em;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 2px 0 0 #70debc, inset 0 -6px #70debc;
+  padding-bottom: 0; }
+
 .overview-wrap,
 .overview {
   background-color: #32374a; }
@@ -401,7 +413,7 @@ figcaption {
 .project-titles {
   padding-left: 20px;
   margin-bottom: 8px;
-  border-left: 10px solid #88f7e3;
+  border-left: 10px solid #ffdc1e;
   line-height: 1.3; }
 
 .project-title,
