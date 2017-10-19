@@ -319,6 +319,9 @@ footer {
   color: #b7b793;
   margin-bottom: 0.6rem; }
 
+.news-copy {
+  font-size: 14px; }
+
 .overview-info {
   padding-top: 24px;
   padding-bottom: 20px; }
