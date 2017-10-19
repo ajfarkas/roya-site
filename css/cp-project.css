@@ -266,7 +266,7 @@ footer {
 .info-box {
   padding-top: 1.8em;
   padding-bottom: 20px; }
-  .info-box > a {
+  .info-box > img {
     float: left;
     padding-right: 10px; }
 
@@ -335,7 +335,7 @@ footer {
   .info-box {
     flex: 1 1 100%;
     padding-bottom: 80px; }
-    .info-box > a {
+    .info-box > img {
       padding-right: 0; }
 
   .info-texts {

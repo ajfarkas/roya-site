@@ -84,6 +84,8 @@ p.pub-type {
 
 .title-container {
 	display: inline-block;
+	min-width: 555px;
+	width: calc(100% - 200px);
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
@@ -177,8 +179,15 @@ section {
 	float: right;
 }
 
-.link-box > a:not(:first-of-type) {
-	margin-left: 10px;
+.link-box > a {
+	&:hover .svg-icon {
+		stroke: $grey;
+		fill: $grey;
+	}
+
+	&:not(:first-of-type) {
+		margin-left: 10px;
+	}
 }
 
 .abstract {

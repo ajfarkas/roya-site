@@ -247,6 +247,8 @@ p.pub-type {
 
 .title-container {
   display: inline-block;
+  min-width: 555px;
+  width: calc(100% - 200px);
   margin-right: 20px;
   margin-bottom: 20px; }
 
@@ -325,6 +327,9 @@ section {
 .ref-links {
   float: right; }
 
+.link-box > a:hover .svg-icon {
+  stroke: #bababa;
+  fill: #bababa; }
 .link-box > a:not(:first-of-type) {
   margin-left: 10px; }
 

@@ -37,13 +37,58 @@
 	</nav>
 	<main class="pubserv">
 		<article>
-			<h2>Publications</h2>
-			<p class="subtitle">Recent publications stemming from the Censored Planet and related projects. Presented in reverse chronological order.</p>
+			<div class="title-container">
+				<h2>Publications</h2>
+				<p class="subtitle">Recent publications stemming from the Censored Planet and related projects. Presented in reverse chronological order.</p>
+			</div>
+			<legend>
+				<div class="key conf-paper-key">Conference Paper</div>
+				<div class="key workshop-key">Refereed Workshop</div>
+				<div class="key tech-report-key">Technical Report</div>
+				<div class="key blog-post-key">Blog Post</div>
+			</legend>
 			<section>
 				<div class="publication">
-					<div class=titleblock>
+					<div class="titleblock conf-paper">
 						<div class="title-box">
-							<p class="pub-type conf-paper">Refereed Conference Paper</p>
+							<h4>Publication title</h4>
+						</div>
+						<div class="link-box">
+							<a class="pub-page" href="#">
+								<svg class="svg-icon svg-rarr">
+									<use xlink:href="#svg-rarr"/>
+								</svg>
+								<p class="svg-text">Webpage</p>
+							</a>
+							<a class="pub-bibtex" href="#">
+								<svg class="svg-icon svg-download">
+									<use xlink:href="#svg-download"/>
+								</svg>
+								<p class="svg-text">BibTex</p>
+							</a>
+							<a class="pub-talk" href="#">
+								<svg class="svg-icon svg-rarr">
+									<use xlink:href="#svg-rarr"/>
+								</svg>
+								<p class="svg-text">Talk</p>
+							</a>
+							<a class="pub-slides" href="#">
+								<svg class="svg-icon svg-rarr">
+									<use xlink:href="#svg-rarr"/>
+								</svg>
+								<p class="svg-text">Slides</p>
+							</a>
+						</div>
+					</div>
+					<p class="authors">Author 1, author 2, author 3</p>
+					<p>In: <span class="pub-in">Publication Title</span>, Month year</p>
+					<label class="abstract-wrap">
+						<input type="checkbox" name="show-abstract"/>
+						<p class="abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur nibh a urna efficitur, sed tincidunt lorem dignissim. Nullam egestas, eros nec tincidunt dapibus, tellus dolor tempor dolor, ut cursus elit mi quis dui. Praesent orci quam, egestas at pretium a, fermentum et neque. Curabitur pellentesque, risus quis condimentum maximus, quam est accumsan libero, ac maximus nunc metus at velit. Fusce sagittis, quam in tempor condimentum, orci lacus lacinia erat, vel commodo sem purus et lorem. Donec ut vulputate diam, a dignissim velit. Nulla id dignissim lacus. Aenean pellentesque ligula ipsum, vehicula eleifend odio cursus et. Phasellus erat sapien, malesuada vitae aliquet in, elementum vitae odio. Ut blandit varius auctor.</p></label>
+				</div>
+				<div class="publication">
+					<div class="titleblock workshop">
+						<div class="title-box">
 							<h4>Publication title</h4>
 						</div>
 						<div class="link-box">
@@ -68,9 +113,8 @@
 						<p class="abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur nibh a urna efficitur, sed tincidunt lorem dignissim. Nullam egestas, eros nec tincidunt dapibus, tellus dolor tempor dolor, ut cursus elit mi quis dui. Praesent orci quam, egestas at pretium a, fermentum et neque. Curabitur pellentesque, risus quis condimentum maximus, quam est accumsan libero, ac maximus nunc metus at velit. Fusce sagittis, quam in tempor condimentum, orci lacus lacinia erat, vel commodo sem purus et lorem. Donec ut vulputate diam, a dignissim velit. Nulla id dignissim lacus. Aenean pellentesque ligula ipsum, vehicula eleifend odio cursus et. Phasellus erat sapien, malesuada vitae aliquet in, elementum vitae odio. Ut blandit varius auctor.</p></label>
 				</div>
 				<div class="publication">
-					<div class=titleblock>
+					<div class="titleblock tech-report">
 						<div class="title-box">
-							<p class="pub-type workshop">Workshop</p>
 							<h4>Publication title</h4>
 						</div>
 						<div class="link-box">
@@ -95,36 +139,8 @@
 						<p class="abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur nibh a urna efficitur, sed tincidunt lorem dignissim. Nullam egestas, eros nec tincidunt dapibus, tellus dolor tempor dolor, ut cursus elit mi quis dui. Praesent orci quam, egestas at pretium a, fermentum et neque. Curabitur pellentesque, risus quis condimentum maximus, quam est accumsan libero, ac maximus nunc metus at velit. Fusce sagittis, quam in tempor condimentum, orci lacus lacinia erat, vel commodo sem purus et lorem. Donec ut vulputate diam, a dignissim velit. Nulla id dignissim lacus. Aenean pellentesque ligula ipsum, vehicula eleifend odio cursus et. Phasellus erat sapien, malesuada vitae aliquet in, elementum vitae odio. Ut blandit varius auctor.</p></label>
 				</div>
 				<div class="publication">
-					<div class=titleblock>
+					<div class="titleblock blog-post">
 						<div class="title-box">
-							<p class="pub-type tech-report">Technical Report</p>
-							<h4>Publication title</h4>
-						</div>
-						<div class="link-box">
-							<a class="pub-page" href="#">
-								<svg class="svg-icon svg-rarr">
-									<use xlink:href="#svg-rarr"/>
-								</svg>
-								<p class="svg-text">Webpage</p>
-							</a>
-							<a class="pub-bibtex" href="#">
-								<svg class="svg-icon svg-download">
-									<use xlink:href="#svg-download"/>
-								</svg>
-								<p class="svg-text">BibTex</p>
-							</a>
-						</div>
-					</div>
-					<p class="authors">Author 1, author 2, author 3</p>
-					<p>In: <span class="pub-in">Publication Title</span>, Month year</p>
-					<label class="abstract-wrap">
-						<input type="checkbox" name="show-abstract"/>
-						<p class="abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur nibh a urna efficitur, sed tincidunt lorem dignissim. Nullam egestas, eros nec tincidunt dapibus, tellus dolor tempor dolor, ut cursus elit mi quis dui. Praesent orci quam, egestas at pretium a, fermentum et neque. Curabitur pellentesque, risus quis condimentum maximus, quam est accumsan libero, ac maximus nunc metus at velit. Fusce sagittis, quam in tempor condimentum, orci lacus lacinia erat, vel commodo sem purus et lorem. Donec ut vulputate diam, a dignissim velit. Nulla id dignissim lacus. Aenean pellentesque ligula ipsum, vehicula eleifend odio cursus et. Phasellus erat sapien, malesuada vitae aliquet in, elementum vitae odio. Ut blandit varius auctor.</p></label>
-				</div>
-				<div class="publication">
-					<div class=titleblock>
-						<div class="title-box">
-							<p class="pub-type blog-post">Blog Post</p>
 							<h4>Publication title</h4>
 						</div>
 						<div class="link-box">
