@@ -117,7 +117,7 @@ h6 {
   line-height: 2.2rem; }
 
 .info-text {
-  line-height: 3rem; }
+  line-height: 2.6rem; }
 
 .copy-items {
   margin-left: 3em; }
@@ -199,7 +199,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   padding: 40px 63px;
-  background-color: #2f2d2d;
+  background-color: #342b2b;
   color: #ffffff; }
   footer .link-contact {
     display: flex;
@@ -253,7 +253,7 @@ footer {
   margin-right: auto; }
 
 .overview-wrap {
-  background-color: #2f2d2d; }
+  background-color: #342b2b; }
 
 .overview {
   display: flex;
@@ -339,8 +339,8 @@ footer {
       padding-right: 0; }
 
   .info-texts {
-    font-size: 2.2rem;
-    line-height: 3rem; }
+    font-size: 1.8rem;
+    line-height: 2.6rem; }
 
   .link-box {
     flex-basis: 300px; } }
@@ -353,7 +353,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   color: #cdecc7;
-  box-shadow: 0 6px 0 0 #70debc, inset 0 -2px #70debc; }
+  box-shadow: 0 5px 0 0 #70debc, inset 0 0 #70debc; }
 
 h3 {
   display: inline-block;
@@ -363,7 +363,7 @@ h3 {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  box-shadow: 0 2px 0 0 #70debc, inset 0 -6px #70debc;
+  box-shadow: 0 2px 0 0 #70debc, inset 0 -5px #70debc;
   padding-bottom: 0; }
 
 .overview-wrap,
